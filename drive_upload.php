@@ -35,3 +35,16 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
 
 		}catch (Exception $e) {
         throw new Exception("Error: " . $e->getMessage());
+        }
+
+        	}
+        	else {
+        		header('Location:upload.php');
+        	}
+
+        } else {
+          $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/google-drive-file-upload-oauth/callback.php';
+          header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
+        }
+
+        ?>
