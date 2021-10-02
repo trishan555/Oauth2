@@ -41,18 +41,7 @@ class Google_AccessToken_Revoke
     $this->http = $http;
   }
 
-****
-$body = Psr7\stream_for(http_build_query(array('token' => $token)));
-    $request = new Request(
-        'POST',
-        Google_Client::OAUTH2_REVOKE_URI,
-        [
-          'Cache-Control' => 'no-store',
-          'Content-Type'  => 'application/x-www-form-urlencoded',
-        ],
-        $body
-    );
-*****
+
 
   /**
    * Revoke an OAuth2 access token or refresh token. This method will revoke the current access
