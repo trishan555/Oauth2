@@ -41,3 +41,34 @@
         <div class="col-md-6">
           <div class="row justify-content-md-center h-100">
             <div class="card-wrapper" style="margin: 30px auto auto 30px">
+
+                    <div class="card fat">
+                            <div class="card-body">
+                              <h4 class="card-title">Upload File To Google Drive</h4>
+                              <form method="post" action="drive_upload.php" enctype="multipart/form-data">
+                                <div class="form-group" style="margin-top: 20px;">
+                                  <input type="file" class="form-control-file" name="uploadfile">
+                                </div>
+                                <div class="form-group no-margin">
+                                  <button type="submit" class="btn btn-primary btn-block">
+                                    Upload to Drive
+                                  </button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer">
+                   ©2021 by OAuth 2.0 Proudly Created By SLIIT
+                  </div>
+                </div>
+              </section>
+
+              <script src="js/jquery.min.js"></script>
+              <script src="bootstrap/js/bootstrap.min.js"></script>
+            </body>
+            </html>
+
