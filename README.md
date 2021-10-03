@@ -16,7 +16,7 @@ This web application demonstrates the use of Google API Client Library for PHP t
 
 You'll need PHP in your working machine to run this application.
 
-01) Clone the project using following URL : 
+01) Clone the project using following URL : https://github.com/trishan555/Oauth2
 02) Download and install either XAMPP, WAMPP to run the application in your local machine.
 03) Move on to cloned folder to the C:\xampp\htdocs folder
 04) Navigate to localhost/google-drive-file-upload-oauth in the browser.  
