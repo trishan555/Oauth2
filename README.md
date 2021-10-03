@@ -1,10 +1,11 @@
 # File Upload Service to your Google Drive using OAuth 2.0
 
-Author : 1. Jayasundara U.L (IT18128482)
-         2. Ranasinghe M.M.C (IT180797634)
-         3. Trishan Piyumal M.A (IT18140644) 
-         4. Bojitha Mindula A.M.K (IT18134018)
-
+Author : 1. Jayasundara U.L (IT18128482)  
+         2. Ranasinghe M.M.C (IT180797634)  
+         3. Trishan Piyumal M.A (IT18140644)  
+         4. Bojitha Mindula A.M.K (IT18134018)  
+         
+  
 ## Application and Technology
 
 This web application demonstrates the use of Google API Client Library for PHP to implement OAuth 2.0 authorization to access Google Drive API. OAuth 2.0 allows users to share specific data with an application while keeping their usernames, passwords, and other information private. This application uses OAuth 2.0 to obtain permission from users to select a file and store it directly in their Google Drives. This application uses Authorization Code grant type.
